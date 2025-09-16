@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Flask App",
+      "type": "shell",
+      "command": "& .\\.venv\\Scripts\\Activate.ps1; python .\\backend\\app.py",
+      "presentation": { "echo": true, "reveal": "always", "focus": true, "panel": "shared" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Serve Frontend (http.server)",
+      "type": "shell",
+      "command": "Push-Location frontend; python -m http.server 8000; Pop-Location",
+      "presentation": { "echo": true, "reveal": "always", "focus": true, "panel": "shared" },
+      "problemMatcher": []
+    }
+  ]
+}

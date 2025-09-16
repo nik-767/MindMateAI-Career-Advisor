@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Advisor - Comprehensive Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+        .test-container { max-width: 1200px; margin: 0 auto; }
+        .test-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px; }
+        .test-card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .test-button { background: #3b82f6; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin: 5px; }
+        .test-button:hover { background: #2563eb; }
+        .test-result { margin-top: 10px; padding: 10px; background: #f8f9fa; border-radius: 5px; font-family: monospace; white-space: pre-wrap; max-height: 300px; overflow-y: auto; }
+        .success { border-left: 4px solid #10b981; }
+        .error { border-left: 4px solid #ef4444; }
+        .status { padding: 5px 10px; border-radius: 3px; color: white; font-weight: bold; }
+        .status.pass { background: #10b981; }
+        .status.fail { background: #ef4444; }
+        .status.pending { background: #f59e0b; }
+        h1 { text-align: center; color: #1f2937; }
+        h3 { color: #374151; }
+        input { width: 300px; padding: 8px; margin-right: 10px; border: 1px solid #d1d5db; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>🚀 Career Advisor - Comprehensive Test Suite</h1>
+        
+        <div class="test-grid">
+            <!-- Backend API Tests -->
+            <div class="test-card">
+                <h3>🔧 Backend API Tests</h3>
+                <div>
+                    <span id="healthStatus" class="status pending">PENDING</span>
+                    <button class="test-button" onclick="testHealth()">Test Health</button>
+                </div>
+                <div id="healthResult" class="test-result"></div>
+                
+                <div style="margin-top: 15px;">
+                    <span id="analysisStatus" class="status pending">PENDING</span>
+                    <button class="test-button" onclick="testAnalysisAPI()">Test Analysis API</button>
+                </div>
+                <div id="analysisAPIResult" class="test-result"></div>
+                
+                <div style="margin-top: 15px;">
+                    <span id="chatStatus" class="status pending">PENDING</span>
+                    <button class="test-button" onclick="testChatAPI()">Test Chat API</button>
+                </div>
+                <div id="chatAPIResult" class="test-result"></div>
+            </div>
+
+            <!-- Frontend Integration Tests -->
+            <div class="test-card">
+                <h3>🎨 Frontend Integration</h3>
+                <div>
+                    <span id="jsStatus" class="status pending">PENDING</span>
+                    <button class="test-button" onclick="testJavaScript()">Test JavaScript</button>
+                </div>
+                <div id="jsResult" class="test-result"></div>
+                
+                <div style="margin-top: 15px;">
+                    <span id="cssStatus" class="status pending">PENDING</span>
+                    <button class="test-button" onclick="testCSS()">Test CSS</button>
+                </div>
+                <div id="cssResult" class="test-result"></div>
+                
+                <div style="margin-top: 15px;">
+                    <button class="test-button" onclick="openMainApp()">🚀 Open Main App</button>
+                </div>
+            </div>
+
+            <!-- Skill Analysis Test -->
+            <div class="test-card">
+                <h3>🎯 Skill Analysis Test</h3>
+                <input type="text" id="testSkills" value="Python, JavaScript, React, Node.js, SQL" placeholder="Enter skills">
+                <select id="careerType">
+                    <option value="tech">Technology</option>
+                    <option value="nontech">Non-Technology</option>
+                    <option value="government">Government</option>
+                </select>
+                <br><br>
+                <button class="test-button" onclick="testFullAnalysis()">Run Full Analysis</button>
+                <div id="fullAnalysisResult" class="test-result"></div>
+            </div>
+
+            <!-- Chat Functionality Test -->
+            <div class="test-card">
+                <h3>💬 Chat Functionality</h3>
+                <input type="text" id="chatMessage" value="What career path should I choose for web development?" placeholder="Enter message">
+                <br><br>
+                <button class="test-button" onclick="testChatFunctionality()">Test Chat</button>
+                <div id="chatFunctionalityResult" class="test-result"></div>
+            </div>
+
+            <!-- Resume Analysis Test -->
+            <div class="test-card">
+                <h3>📄 Resume Analysis</h3>
+                <button class="test-button" onclick="testResumeAnalysis()">Test Demo Resume</button>
+                <div id="resumeAnalysisResult" class="test-result"></div>
+            </div>
+
+            <!-- Overall Test Results -->
+            <div class="test-card">
+                <h3>📊 Test Summary</h3>
+                <div id="testSummary">
+                    <p>Click "Run All Tests" to see overall results</p>
+                </div>
+                <button class="test-button" onclick="runAllTests()" style="background: #10b981;">Run All Tests</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let testResults = {};
+
+        function updateStatus(testName, status) {
+            const statusElement = document.getElementById(testName + 'Status');
+            if (statusElement) {
+                statusElement.textContent = status.toUpperCase();
+                statusElement.className = `status ${status}`;
+            }
+            testResults[testName] = status;
+            updateSummary();
+        }
+
+        function updateSummary() {
+            const summary = document.getElementById('testSummary');
+            const total = Object.keys(testResults).length;
+            const passed = Object.values(testResults).filter(r => r === 'pass').length;
+            const failed = Object.values(testResults).filter(r => r === 'fail').length;
+            const pending = total - passed - failed;
+
+            summary.innerHTML = `
+                <p><strong>Total Tests:</strong> ${total}</p>
+                <p><strong>Passed:</strong> <span style="color: #10b981;">${passed}</span></p>
+                <p><strong>Failed:</strong> <span style="color: #ef4444;">${failed}</span></p>
+                <p><strong>Pending:</strong> <span style="color: #f59e0b;">${pending}</span></p>
+                <p><strong>Success Rate:</strong> ${total > 0 ? Math.round((passed / total) * 100) : 0}%</p>
+            `;
+        }
+
+        async function testHealth() {
+            const resultDiv = document.getElementById('healthResult');
+            resultDiv.textContent = 'Testing backend health...';
+            
+            try {
+                const response = await fetch('/health');
+                if (response.ok) {
+                    const data = await response.json();
+                    resultDiv.textContent = `✅ Backend healthy!\n${JSON.stringify(data, null, 2)}`;
+                    resultDiv.className = 'test-result success';
+                    updateStatus('health', 'pass');
+                } else {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+            } catch (error) {
+                resultDiv.textContent = `❌ Health check failed: ${error.message}`;
+                resultDiv.className = 'test-result error';
+                updateStatus('health', 'fail');
+            }
+        }
+
+        async function testAnalysisAPI() {
+            const resultDiv = document.getElementById('analysisAPIResult');
+            resultDiv.textContent = 'Testing analysis API...';
+            
+            try {
+                const response = await fetch('/api/analyze', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        mode: 'quick',
+                        skills: 'Python, JavaScript, React',
+                        careerType: 'tech',
+                        domain: 'software-development'
+                    })
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    resultDiv.textContent = `✅ Analysis API working!\nRoles found: ${data.bestRoles?.length || 0}\nTop role: ${data.bestRoles?.[0]?.title || 'None'}`;
+                    resultDiv.className = 'test-result success';
+                    updateStatus('analysis', 'pass');
+                } else {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+            } catch (error) {
+                resultDiv.textContent = `❌ Analysis API failed: ${error.message}`;
+                resultDiv.className = 'test-result error';
+                updateStatus('analysis', 'fail');
+            }
+        }
+
+        async function testChatAPI() {
+            const resultDiv = document.getElementById('chatAPIResult');
+            resultDiv.textContent = 'Testing chat API...';
+            
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        message: 'Hello, what can you help me with?',
+                        context: { careerType: 'tech' }
+                    })
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    resultDiv.textContent = `✅ Chat API working!\nResponse: ${data.response.substring(0, 150)}...`;
+                    resultDiv.className = 'test-result success';
+                    updateStatus('chat', 'pass');
+                } else {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+            } catch (error) {
+                resultDiv.textContent = `❌ Chat API failed: ${error.message}`;
+                resultDiv.className = 'test-result error';
+                updateStatus('chat', 'fail');
+            }
+        }
+
+        function testJavaScript() {
+            const resultDiv = document.getElementById('jsResult');
+            
+            try {
+                // Test if main script loads
+                const script = document.createElement('script');
+                script.src = '/frontend/script.js';
+                script.onload = function() {
+                    if (typeof CareerPathAI !== 'undefined') {
+                        resultDiv.textContent = '✅ JavaScript loaded successfully!\nCareerPathAI class available.';
+                        resultDiv.className = 'test-result success';
+                        updateStatus('js', 'pass');
+                    } else {
+                        resultDiv.textContent = '❌ CareerPathAI class not found';
+                        resultDiv.className = 'test-result error';
+                        updateStatus('js', 'fail');
+                    }
+                };
+                script.onerror = function() {
+                    resultDiv.textContent = '❌ Failed to load script.js';
+                    resultDiv.className = 'test-result error';
+                    updateStatus('js', 'fail');
+                };
+                document.head.appendChild(script);
+            } catch (error) {
+                resultDiv.textContent = `❌ JavaScript test failed: ${error.message}`;
+                resultDiv.className = 'test-result error';
+                updateStatus('js', 'fail');
+            }
+        }
+
+        function testCSS() {
+            const resultDiv = document.getElementById('cssResult');
+            
+            try {
+                const link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.href = '/frontend/styles.css';
+                link.onload = function() {
+                    resultDiv.textContent = '✅ CSS loaded successfully!';
+                    resultDiv.className = 'test-result success';
+                    updateStatus('css', 'pass');
+                };
+                link.onerror = function() {
+                    resultDiv.textContent = '❌ Failed to load styles.css';
+                    resultDiv.className = 'test-result error';
+                    updateStatus('css', 'fail');
+                };
+                document.head.appendChild(link);
+            } catch (error) {
+                resultDiv.textContent = `❌ CSS test failed: ${error.message}`;
+                resultDiv.className = 'test-result error';
+                updateStatus('css', 'fail');
+            }
+        }
+
+        async function testFullAnalysis() {
+            const resultDiv = document.getElementById('fullAnalysisResult');
+            const skills = document.getElementById('testSkills').value;
+            const careerType = document.getElementById('careerType').value;
+            
+            resultDiv.textContent = 'Running full analysis...';
+            
+            try {
+                const response = await fetch('/api/analyze', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        mode: 'quick',
+                        skills: skills,
+                        careerType: careerType,
+                        domain: careerType === 'tech' ? 'software-development' : 'general'
+                    })
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    resultDiv.textContent = `✅ Full analysis completed!
+Career Type: ${careerType}
+Skills Analyzed: ${skills}
+Top 3 Roles:
+${data.bestRoles?.slice(0, 3).map((role, i) => `${i+1}. ${role.title} (${role.score}% match)`).join('\n') || 'No roles found'}
+
+Skill Gaps: ${data.skillGaps?.join(', ') || 'None identified'}
+Learning Resources: ${data.learningPlan?.length || 0} available`;
+                    resultDiv.className = 'test-result success';
+                } else {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+            } catch (error) {
+                resultDiv.textContent = `❌ Full analysis failed: ${error.message}`;
+                resultDiv.className = 'test-result error';
+            }
+        }
+
+        async function testChatFunctionality() {
+            const resultDiv = document.getElementById('chatFunctionalityResult');
+            const message = document.getElementById('chatMessage').value;
+            
+            resultDiv.textContent = 'Testing chat functionality...';
+            
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        message: message,
+                        context: {
+                            careerType: 'tech',
+                            skills: ['Python', 'JavaScript', 'React'],
+                            domain: 'software-development'
+                        }
+                    })
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    resultDiv.textContent = `✅ Chat functionality working!
+User Message: ${message}
+AI Response: ${data.response}`;
+                    resultDiv.className = 'test-result success';
+                } else {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+            } catch (error) {
+                resultDiv.textContent = `❌ Chat functionality failed: ${error.message}`;
+                resultDiv.className = 'test-result error';
+            }
+        }
+
+        async function testResumeAnalysis() {
+            const resultDiv = document.getElementById('resumeAnalysisResult');
+            resultDiv.textContent = 'Testing resume analysis...';
+            
+            const demoResume = `John Smith - Software Engineer
+Experience: Senior Software Engineer at Tech Corp (2020-2023)
+Skills: Python, JavaScript, React, Node.js, SQL, AWS
+Education: B.S. Computer Science
+Projects: E-commerce platform, Data analytics dashboard`;
+            
+            try {
+                const response = await fetch('/api/resume/analyze', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        text: demoResume,
+                        careerType: 'tech'
+                    })
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    resultDiv.textContent = `✅ Resume analysis working!
+Skills Extracted: ${data.skills?.join(', ') || 'None'}
+Experience Level: ${data.experienceLevel || 'Unknown'}
+Match Score: ${data.matchScore || 0}%`;
+                    resultDiv.className = 'test-result success';
+                } else {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+            } catch (error) {
+                resultDiv.textContent = `❌ Resume analysis failed: ${error.message}`;
+                resultDiv.className = 'test-result error';
+            }
+        }
+
+        function openMainApp() {
+            window.open('/frontend/index.html', '_blank');
+        }
+
+        async function runAllTests() {
+            await testHealth();
+            await new Promise(resolve => setTimeout(resolve, 500));
+            await testAnalysisAPI();
+            await new Promise(resolve => setTimeout(resolve, 500));
+            await testChatAPI();
+            await new Promise(resolve => setTimeout(resolve, 500));
+            testJavaScript();
+            await new Promise(resolve => setTimeout(resolve, 500));
+            testCSS();
+            await new Promise(resolve => setTimeout(resolve, 500));
+            await testFullAnalysis();
+            await new Promise(resolve => setTimeout(resolve, 500));
+            await testChatFunctionality();
+            await new Promise(resolve => setTimeout(resolve, 500));
+            await testResumeAnalysis();
+        }
+
+        // Auto-run health check on page load
+        window.onload = function() {
+            testHealth();
+        };
+    </script>
+</body>
+</html>

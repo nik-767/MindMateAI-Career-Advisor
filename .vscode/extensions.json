@@ -1,0 +1,87 @@
+{
+    "recommendations": [
+        // Python Development
+        "ms-python.python",
+        "ms-python.flake8",
+        "ms-python.pylint",
+        "ms-python.black-formatter",
+        "ms-python.isort",
+        "ms-python.debugpy",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.vscode-jupyter-slideshow",
+        
+        // JavaScript/TypeScript/Node.js
+        "ms-vscode.vscode-typescript-next",
+        "ms-vscode.vscode-json",
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "ms-vscode.vscode-js-debug",
+        
+        // HTML/CSS
+        "ecmel.vscode-html-css",
+        "formulahendry.auto-rename-tag",
+        "formulahendry.auto-close-tag",
+        "zignd.html-css-class-completion",
+        "pranaygp.vscode-css-peek",
+        
+        // Database & SQL
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-pg",
+        "mtxr.sqltools-driver-sqlite",
+        "cweijan.vscode-postgresql-client2",
+        
+        // API Development & Testing
+        "humao.rest-client",
+        "rangav.vscode-thunder-client",
+        "42crunch.vscode-openapi",
+        
+        // Git & Version Control
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+        "donjayamanne.githistory",
+        
+        // Docker & Containers
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
+        
+        // Environment & Configuration
+        "mikestead.dotenv",
+        "ms-python.vscode-pylance",
+        "ms-vscode.powershell",
+        
+        // Code Quality & Formatting
+        "streetsidesoftware.code-spell-checker",
+        "editorconfig.editorconfig",
+        "aaron-bond.better-comments",
+        "oderwat.indent-rainbow",
+        "mechatroner.rainbow-csv",
+        
+        // Productivity & UI
+        "ms-vscode.vscode-icons",
+        "pkief.material-icon-theme",
+        "zhuangtongfa.material-theme",
+        "formulahendry.code-runner",
+        "alefragnani.bookmarks",
+        "gruntfuggly.todo-tree",
+        "ms-vscode.live-server",
+        
+        // Documentation & Markdown
+        "yzhang.markdown-all-in-one",
+        "shd101wyy.markdown-preview-enhanced",
+        "davidanson.vscode-markdownlint",
+        
+        // Flask Specific
+        "ms-python.flake8",
+        "wholroyd.jinja",
+        "samuelcolvin.jinjahtml",
+        
+        // Additional Utilities
+        "christian-kohler.path-intellisense",
+        "visualstudioexptteam.vscodeintellicode",
+        "ms-vscode.hexeditor",
+        "redhat.vscode-yaml",
+        "tamasfe.even-better-toml"
+    ]
+}

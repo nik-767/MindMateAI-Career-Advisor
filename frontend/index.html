@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerPath AI - Your Personal Career Navigator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-rocket"></i>
+                <span>CareerPath AI</span>
+            </div>
+            <div class="nav-links">
+                <a href="#assessment" class="nav-link active">Assessment</a>
+                <a href="#roadmap" class="nav-link">Roadmap</a>
+                <a href="#insights" class="nav-link">Insights</a>
+                <a href="#chat" class="nav-link">AI Chat</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Discover Your <span class="gradient-text">Perfect Career Path</span>
+                </h1>
+                <p class="hero-subtitle">
+                    AI-powered guidance for Tech, Non-Tech, and Government careers with personalized skill assessment and roadmap generation.
+                </p>
+                <a href="#assessment" class="btn-primary btn-large">Get Started <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Career Growth</span>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Skill Insights</span>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-map-signs"></i>
+                    <span>Personalized Roadmap</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section id="assessment" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2><span class="gradient-text">1.</span> Your Career Profile</h2>
+                    <p>Tell us about your career goals and skills.</p>
+                </div>
+
+                <div class="assessment-container">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3><i class="fas fa-compass"></i> Choose Your Career Field</h3>
+                        </div>
+                        <div class="career-type-grid">
+                            <button class="career-type-btn active" data-type="tech">
+                                <i class="fas fa-laptop-code"></i>
+                                <span>Technology</span>
+                                <p>Software, AI, Data Science, Cloud</p>
+                            </button>
+                            <button class="career-type-btn" data-type="nontech">
+                                <i class="fas fa-briefcase"></i>
+                                <span>Business & Non-Tech</span>
+                                <p>Marketing, Finance, HR, Operations</p>
+                            </button>
+                            <button class="career-type-btn" data-type="government">
+                                <i class="fas fa-landmark"></i>
+                                <span>Government & Civil Services</span>
+                                <p>UPSC, Banking, SSC, Public Sector</p>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="section-header" style="margin-top: 4rem;">
+                        <h2><span class="gradient-text">2.</span> Assess Your Skills</h2>
+                        <p>Choose your preferred method for skill assessment.</p>
+                    </div>
+
+                    <div class="input-mode-selector">
+                        <button class="mode-btn active" data-mode="quick">
+                            <i class="fas fa-bolt"></i> Quick Input
+                        </button>
+                        <button class="mode-btn" data-mode="detailed">
+                            <i class="fas fa-sliders"></i> Detailed Assessment
+                        </button>
+                        <button class="mode-btn" data-mode="resume">
+                            <i class="fas fa-file-alt"></i> Resume Analysis
+                        </button>
+                    </div>
+
+                    <div id="quickInput" class="card">
+                        <div class="card-header">
+                            <h3><i class="fas fa-keyboard"></i> Quick Skills Input</h3>
+                            <p>Enter your skills separated by commas.</p>
+                        </div>
+                        <textarea id="skillsInput" placeholder="e.g., Python, React, SQL, Project Management..."></textarea>
+                    </div>
+
+                    <div id="detailedAssessment" class="card" style="display: none;">
+                        <div class="card-header">
+                            <h3><i class="fas fa-sliders"></i> Detailed Skill Assessment</h3>
+                            <p>Rate your proficiency from 1 (Beginner) to 5 (Expert).</p>
+                        </div>
+                        <div id="skillCategories">
+                            </div>
+                    </div>
+                    
+                    <div id="resumeAnalysis" class="card" style="display: none;">
+                        <div class="card-header">
+                            <h3><i class="fas fa-file-alt"></i> Resume Analysis</h3>
+                            <p>Upload your resume for AI-powered skill extraction.</p>
+                        </div>
+                        <div class="resume-upload-area" id="resumeUploadArea">
+                            <div class="upload-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                            <h4>Drop your resume here or click to upload</h4>
+                            <p>Supports PDF, DOCX, and TXT files</p>
+                            <input type="file" id="resumeFile" accept=".pdf,.docx,.txt" hidden>
+                        </div>
+                        <div id="resumeAnalysisResults" style="display: none;">
+                            <h4><i class="fas fa-check-circle"></i> Extracted Skills:</h4>
+                            <div id="extractedSkills" class="skill-tags"></div>
+                        </div>
+                    </div>
+
+                    <div id="domainSelectionCard" class="card">
+                        <div class="card-header">
+                            <h3><i class="fas fa-crosshairs"></i> Select a Domain Focus (Optional)</h3>
+                            <p>Choose a specific area for more targeted recommendations.</p>
+                        </div>
+                        <div id="domainOptionsContainer">
+                            </div>
+                    </div>
+                    
+                    <div class="action-section">
+                        <button id="analyzeBtn" class="btn-primary btn-large">
+                            <i class="fas fa-cogs"></i> Analyze My Career Path
+                        </button>
+                        <button id="clearBtn" class="btn-secondary">
+                            <i class="fas fa-undo"></i> Reset
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="resultsWrapper" style="display: none;">
+            <div id="loading" class="loading-container">
+                <div class="loading-spinner"></div>
+                <p>Analyzing your profile with AI...</p>
+                <p class="loading-subtitle">Generating your personalized career roadmap.</p>
+            </div>
+
+            <section id="results" class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Your Personalized Analysis</h2>
+                        <p>Here are the top career matches and insights based on your profile.</p>
+                    </div>
+                    
+                    <div id="resultsContent" class="results-grid">
+                        <div class="results-main">
+                            <div class="card">
+                                <div class="card-header"><h3><i class="fas fa-star"></i> Top Career Matches</h3></div>
+                                <div id="careerList"></div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header"><h3><i class="fas fa-robot"></i> AI Career Advice</h3></div>
+                                <div id="aiAdvice"></div>
+                            </div>
+                        </div>
+                        <div class="results-sidebar">
+                            <div class="card">
+                                <div class="card-header"><h3><i class="fas fa-chart-pie"></i> Skill Analysis</h3></div>
+                                <div class="skill-analysis">
+                                    <h4>Your Skills</h4>
+                                    <div id="userSkills" class="skill-tags"></div>
+                                    <h4 style="margin-top: 1.5rem;">Top Skills to Develop</h4>
+                                    <div id="skillGaps" class="skill-tags"></div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header"><h3><i class="fas fa-book-open"></i> Learning Resources</h3></div>
+                                <div id="learningResources"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section id="roadmap" class="section" style="display: none;">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Your Personalized Career Roadmap</h2>
+                    <p>A step-by-step journey to help you achieve your career goals.</p>
+                </div>
+                <div class="roadmap-container">
+                    <div class="roadmap-timeline"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="insights" class="section" style="display: none;">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Career Insights & Recommendations</h2>
+                    <p>Discover market trends and actionable advice based on your profile.</p>
+                </div>
+                <div class="insights-grid">
+                    <div class="card">
+                        <div class="card-header"><h3><i class="fas fa-chart-line"></i> Market Trends</h3></div>
+                        <div class="trends-list"></div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header"><h3><i class="fas fa-lightbulb"></i> Personalized Recommendations</h3></div>
+                        <div class="recommendations-list"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="chat" class="section" style="display: none;">
+            <div class="container">
+                <div class="section-header">
+                    <h2>AI Career Chat</h2>
+                    <p>Ask our AI assistant for career advice, interview tips, and more.</p>
+                </div>
+                <div class="chat-container">
+                    <div class="chat-window">
+                        <div class="chat-header">
+                            <div class="chat-avatar"><i class="fas fa-robot"></i></div>
+                            <div class="chat-info">
+                                <h3>Career AI Assistant</h3>
+                                <p><span class="status-indicator"></span>Online</p>
+                            </div>
+                        </div>
+                        <div id="chatMessages" class="chat-messages"></div>
+                        <div class="chat-input-container">
+                            <div class="chat-suggestions"></div>
+                            <div class="chat-input-wrapper">
+                                <input type="text" id="chatInput" placeholder="Ask a question...">
+                                <button id="sendMessage" class="send-button"><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 CareerPath AI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

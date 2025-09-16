@@ -1,0 +1,1517 @@
+[
+  {
+    "title": "Frontend Developer",
+    "tags": ["web", "frontend"],
+    "description": "Builds the user-facing part of websites using HTML, CSS, and JavaScript frameworks.",
+    "requiredSkills": [
+      {"skill": "HTML", "weight": 1},
+      {"skill": "CSS", "weight": 1},
+      {"skill": "JavaScript", "weight": 2},
+      {"skill": "React/Vue/Angular", "weight": 2},
+      {"skill": "Version Control (Git)", "weight": 1},
+      {"skill": "Responsive Design", "weight": 1},
+      {"skill": "APIs / JSON", "weight": 1}
+    ]
+  },
+
+  {
+    "title": "Backend Developer",
+    "tags": ["web", "backend"],
+    "requiredSkills": [
+      {"skill": "NodeJS/Python/Java", "weight": 2},
+      {"skill": "REST APIs", "weight": 2},
+      {"skill": "Databases (SQL/NoSQL)", "weight": 2},
+      {"skill": "Authentication & Security", "weight": 1},
+      {"skill": "Docker (basic)", "weight": 1}
+    ]
+  },
+  {
+    "title": "Full-Stack Developer",
+    "tags": ["web", "frontend", "backend"],
+    "requiredSkills": [
+      {"skill": "HTML/CSS/JS", "weight": 1},
+      {"skill": "JavaScript", "weight": 2},
+      {"skill": "React", "weight": 2},
+      {"skill": "NodeJS", "weight": 2},
+      {"skill": "REST APIs", "weight": 2},
+      {"skill": "Databases", "weight": 2},
+      {"skill": "Git", "weight": 1}
+    ]
+  },
+  {
+    "title": "Data Analyst",
+    "tags": ["data"],
+    "requiredSkills": [
+      {"skill": "SQL", "weight": 2},
+      {"skill": "Spreadsheets / Excel", "weight": 1},
+      {"skill": "Data Visualization", "weight": 1},
+      {"skill": "Python / R", "weight": 1},
+      {"skill": "Statistics", "weight": 2},
+      {"skill": "Dashboards (Tableau/PowerBI)", "weight": 1}
+    ]
+  },
+  {
+    "title": "Data Scientist",
+    "tags": ["data", "ml"],
+    "requiredSkills": [
+      {"skill": "Python", "weight": 2},
+      {"skill": "Statistics", "weight": 2},
+      {"skill": "Machine Learning", "weight": 2},
+      {"skill": "SQL", "weight": 1},
+      {"skill": "Data Visualization", "weight": 1},
+      {"skill": "Model Deployment (basic)", "weight": 1}
+    ]
+  },
+  {
+    "title": "ML Engineer",
+    "tags": ["ml"],
+    "requiredSkills": [
+      {"skill": "Python", "weight": 2},
+      {"skill": "Machine Learning", "weight": 2},
+      {"skill": "Deep Learning", "weight": 2},
+      {"skill": "MLOps / Pipelines", "weight": 1},
+      {"skill": "Cloud (GCP/AWS)", "weight": 1}
+    ]
+  },
+  {
+    "title": "Cloud Engineer",
+    "tags": ["cloud"],
+    "requiredSkills": [
+      {"skill": "Cloud Platforms (AWS/GCP/Azure)", "weight": 2},
+      {"skill": "Linux", "weight": 1},
+      {"skill": "Networking", "weight": 1},
+      {"skill": "Containers / Kubernetes", "weight": 2},
+      {"skill": "CI/CD", "weight": 1}
+    ]
+  },
+  {
+    "title": "Cybersecurity Analyst",
+    "tags": ["security"],
+    "requiredSkills": [
+      {"skill": "Networking (basics)", "weight": 2},
+      {"skill": "Linux", "weight": 2},
+      {"skill": "Security Fundamentals", "weight": 2},
+      {"skill": "Scripting (Python/Bash)", "weight": 1},
+      {"skill": "SIEM / Monitoring", "weight": 1}
+    ]
+  },
+  {
+    "title": "Mobile Developer",
+    "tags": ["mobile"],
+    "requiredSkills": [
+      {"skill": "Java/Kotlin or Swift", "weight": 2},
+      {"skill": "Mobile SDKs", "weight": 2},
+      {"skill": "UI/UX for Mobile", "weight": 1},
+      {"skill": "APIs", "weight": 1},
+      {"skill": "Git", "weight": 1}
+    ]
+  },
+  {
+    "title": "UI/UX Designer",
+    "tags": ["uiux"],
+    "requiredSkills": [
+      {"skill": "Design Principles", "weight": 2},
+      {"skill": "Wireframing/Prototyping", "weight": 2},
+      {"skill": "User Research", "weight": 1},
+      {"skill": "Figma/Sketch", "weight": 2},
+      {"skill": "Accessibility", "weight": 1}
+    ]
+  },
+  {
+    "title": "Product Manager (Tech)",
+    "tags": ["product"],
+    "requiredSkills": [
+      {"skill": "Product Sense", "weight": 2},
+      {"skill": "Roadmapping", "weight": 1},
+      {"skill": "User Research", "weight": 1},
+      {"skill": "Data Analysis (basic)", "weight": 1},
+      {"skill": "Communication", "weight": 1}
+    ]
+  },
+  {
+    "title": "DevOps / Site Reliability Engineer",
+    "tags": ["devops", "it"],
+    "requiredSkills": [
+      {"skill": "CI/CD", "weight": 2},
+      {"skill": "Docker/Kubernetes", "weight": 2},
+      {"skill": "Monitoring & Alerting", "weight": 2},
+      {"skill": "Scripting / Automation", "weight": 1}
+    ]
+  },
+  {
+    "title": "QA Engineer / Test Automation",
+    "tags": ["qa", "testing"],
+    "requiredSkills": [
+      {"skill": "Testing Frameworks", "weight": 2},
+      {"skill": "Selenium / Playwright", "weight": 2},
+      {"skill": "API Testing", "weight": 1},
+      {"skill": "CI Integration", "weight": 1}
+    ]
+  },
+  {
+    "title": "Data Engineer",
+    "tags": ["data"],
+    "requiredSkills": [
+      {"skill": "SQL", "weight": 2},
+      {"skill": "ETL Pipelines", "weight": 2},
+      {"skill": "Big Data Tools (Spark/Hadoop)", "weight": 2},
+      {"skill": "Python/Scala", "weight": 1}
+    ]
+  },
+  {
+    "title": "AI / Generative AI Specialist",
+    "tags": ["ai", "ml"],
+    "requiredSkills": [
+      {"skill": "NLP / Transformers", "weight": 2},
+      {"skill": "Machine Learning", "weight": 2},
+      {"skill": "Python", "weight": 2},
+      {"skill": "Model Deployment", "weight": 1}
+    ]
+  },
+  {
+    "title": "Blockchain Developer",
+    "tags": ["blockchain"],
+    "requiredSkills": [
+      {"skill": "Solidity / Smart Contracts", "weight": 2},
+      {"skill": "Web3.js / ethers.js", "weight": 1},
+      {"skill": "Cryptography Basics", "weight": 1}
+    ]
+  },
+  {
+    "title": "Technical Writer",
+    "tags": ["writing"],
+    "requiredSkills": [
+      {"skill": "Documentation", "weight": 2},
+      {"skill": "API Writing", "weight": 2},
+      {"skill": "Markdown / Tools", "weight": 1}
+    ]
+  },
+  {
+    "title": "Database Administrator (DBA)",
+    "tags": ["it", "data"],
+    "requiredSkills": [
+      {"skill": "SQL", "weight": 2},
+      {"skill": "Backup & Recovery", "weight": 2},
+      {"skill": "Performance Tuning", "weight": 2},
+      {"skill": "DB Architecture", "weight": 1}
+    ]
+  },
+  {
+    "title": "Business Intelligence (BI) Developer",
+    "tags": ["data", "business"],
+    "requiredSkills": [
+      {"skill": "SQL", "weight": 2},
+      {"skill": "ETL", "weight": 2},
+      {"skill": "Power BI / Tableau", "weight": 2},
+      {"skill": "Data Modeling", "weight": 1}
+    ]
+  },
+  {
+    "title": "Data Architect",
+    "tags": ["data", "it"],
+    "requiredSkills": [
+      {"skill": "Data Modeling", "weight": 2},
+      {"skill": "Database Design", "weight": 2},
+      {"skill": "ETL Architecture", "weight": 1},
+      {"skill": "Cloud Data Services", "weight": 1}
+    ]
+  },
+  {
+    "title": "NLP Engineer",
+    "tags": ["ml", "ai"],
+    "requiredSkills": [
+      {"skill": "NLP", "weight": 2},
+      {"skill": "Python", "weight": 2},
+      {"skill": "Transformers", "weight": 2},
+      {"skill": "Text Preprocessing", "weight": 1}
+    ]
+  },
+  {
+    "title": "Computer Vision Engineer",
+    "tags": ["ml", "ai"],
+    "requiredSkills": [
+      {"skill": "Computer Vision", "weight": 2},
+      {"skill": "Python", "weight": 2},
+      {"skill": "OpenCV / TensorFlow / PyTorch", "weight": 2},
+      {"skill": "Image Processing", "weight": 1}
+    ]
+  },
+  {
+    "title": "Robotics Engineer",
+    "tags": ["robotics", "it"],
+    "requiredSkills": [
+      {"skill": "Control Systems", "weight": 2},
+      {"skill": "ROS", "weight": 2},
+      {"skill": "C/C++ or Python", "weight": 2},
+      {"skill": "Embedded Systems", "weight": 1}
+    ]
+  },
+  {
+    "title": "Embedded Systems Engineer",
+    "tags": ["hardware", "it"],
+    "requiredSkills": [
+      {"skill": "C/C++", "weight": 2},
+      {"skill": "Microcontrollers", "weight": 2},
+      {"skill": "Firmware", "weight": 2},
+      {"skill": "Debugging", "weight": 1}
+    ]
+  },
+  {
+    "title": "Systems Engineer",
+    "tags": ["it", "infrastructure"],
+    "requiredSkills": [
+      {"skill": "Linux/Windows Admin", "weight": 2},
+      {"skill": "Networking", "weight": 2},
+      {"skill": "Scripting", "weight": 1},
+      {"skill": "Monitoring", "weight": 1}
+    ]
+  },
+  {
+    "title": "Cloud Architect",
+    "tags": ["cloud", "it"],
+    "requiredSkills": [
+      {"skill": "Cloud Architecture (AWS/GCP/Azure)", "weight": 2},
+      {"skill": "Security", "weight": 2},
+      {"skill": "Networking", "weight": 1},
+      {"skill": "Cost Optimization", "weight": 1}
+    ]
+  },
+  {
+    "title": "Solutions Architect",
+    "tags": ["it", "enterprise"],
+    "requiredSkills": [
+      {"skill": "System Design", "weight": 2},
+      {"skill": "Cloud Platforms", "weight": 2},
+      {"skill": "Integration Patterns", "weight": 1},
+      {"skill": "Stakeholder Communication", "weight": 1}
+    ]
+  },
+  {
+    "title": "Security Engineer / Penetration Tester",
+    "tags": ["security", "it"],
+    "requiredSkills": [
+      {"skill": "Security Testing", "weight": 2},
+      {"skill": "Network Security", "weight": 2},
+      {"skill": "Scripting", "weight": 1},
+      {"skill": "Forensics", "weight": 1}
+    ]
+  },
+  {
+    "title": "Privacy & Compliance Officer",
+    "tags": ["compliance", "legal"],
+    "requiredSkills": [
+      {"skill": "Regulatory Knowledge (GDPR, CCPA)", "weight": 2},
+      {"skill": "Policy Development", "weight": 2},
+      {"skill": "Auditing", "weight": 1},
+      {"skill": "Risk Management", "weight": 1}
+    ]
+  },
+  {
+    "title": "ML Researcher / Research Scientist",
+    "tags": ["research", "ml"],
+    "requiredSkills": [
+      {"skill": "Research Methods", "weight": 2},
+      {"skill": "Machine Learning", "weight": 2},
+      {"skill": "Statistics", "weight": 2},
+      {"skill": "Paper Writing", "weight": 1}
+    ]
+  },
+  {
+    "title": "Algorithm Engineer",
+    "tags": ["ml", "it"],
+    "requiredSkills": [
+      {"skill": "Algorithms & Data Structures", "weight": 2},
+      {"skill": "Optimization", "weight": 2},
+      {"skill": "C++/Python", "weight": 1},
+      {"skill": "Math", "weight": 1}
+    ]
+  },
+  {
+    "title": "Game Developer",
+    "tags": ["software", "entertainment"],
+    "requiredSkills": [
+      {"skill": "Game Engines (Unity/Unreal)", "weight": 2},
+      {"skill": "C#/C++", "weight": 2},
+      {"skill": "3D Math", "weight": 1},
+      {"skill": "Graphics", "weight": 1}
+    ]
+  },
+  {
+    "title": "AR/VR Developer",
+    "tags": ["software", "xr"],
+    "requiredSkills": [
+      {"skill": "3D Programming", "weight": 2},
+      {"skill": "Unity/Unreal", "weight": 2},
+      {"skill": "UX for XR", "weight": 1},
+      {"skill": "Graphics/Shader", "weight": 1}
+    ]
+  },
+  {
+    "title": "IoT Engineer",
+    "tags": ["iot", "hardware"],
+    "requiredSkills": [
+      {"skill": "Embedded Systems", "weight": 2},
+      {"skill": "Networking", "weight": 2},
+      {"skill": "Security", "weight": 1},
+      {"skill": "Cloud Integration", "weight": 1}
+    ]
+  },
+  {
+    "title": "Hardware / FPGA Engineer",
+    "tags": ["hardware", "engineering"],
+    "requiredSkills": [
+      {"skill": "Digital Design (VHDL/Verilog)", "weight": 2},
+      {"skill": "FPGA", "weight": 2},
+      {"skill": "Embedded Systems", "weight": 1},
+      {"skill": "Signal Processing", "weight": 1}
+    ]
+  },
+  {
+    "title": "Accessibility Specialist",
+    "tags": ["ux", "design", "it"],
+    "requiredSkills": [
+      {"skill": "WCAG", "weight": 2},
+      {"skill": "Accessibility Testing", "weight": 2},
+      {"skill": "Assistive Tech", "weight": 1},
+      {"skill": "Inclusive Design", "weight": 1}
+    ]
+  },
+  {
+    "title": "UX Researcher",
+    "tags": ["ux", "research"],
+    "requiredSkills": [
+      {"skill": "User Research", "weight": 2},
+      {"skill": "Interviewing", "weight": 2},
+      {"skill": "Usability Testing", "weight": 1},
+      {"skill": "Data Analysis", "weight": 1}
+    ]
+  },
+  {
+    "title": "Creative Director / Art Director",
+    "tags": ["creative", "design"],
+    "requiredSkills": [
+      {"skill": "Creative Leadership", "weight": 2},
+      {"skill": "Visual Design", "weight": 2},
+      {"skill": "Branding", "weight": 1},
+      {"skill": "Portfolio", "weight": 1}
+    ]
+  },
+  {
+    "title": "Brand / PR Specialist",
+    "tags": ["marketing", "nontech"],
+    "requiredSkills": [
+      {"skill": "Brand Strategy", "weight": 2},
+      {"skill": "PR", "weight": 2},
+      {"skill": "Media Relations", "weight": 1},
+      {"skill": "Campaigns", "weight": 1}
+    ]
+  },
+  {
+    "title": "Events Manager",
+    "tags": ["nontech", "events"],
+    "requiredSkills": [
+      {"skill": "Event Planning", "weight": 2},
+      {"skill": "Vendor Management", "weight": 1},
+      {"skill": "Logistics", "weight": 1},
+      {"skill": "Budgeting", "weight": 1}
+    ]
+  },
+  {
+    "title": "Learning & Development (L&D) Specialist",
+    "tags": ["hr", "nontech"],
+    "requiredSkills": [
+      {"skill": "Instructional Design", "weight": 2},
+      {"skill": "Curriculum Development", "weight": 2},
+      {"skill": "Facilitation", "weight": 1},
+      {"skill": "Evaluation", "weight": 1}
+    ]
+  },
+  {
+    "title": "Career Counselor / Advisor",
+    "tags": ["nontech", "career"],
+    "requiredSkills": [
+      {"skill": "Career Coaching", "weight": 2},
+      {"skill": "Resume/CV Guidance", "weight": 2},
+      {"skill": "Interview Coaching", "weight": 1},
+      {"skill": "Labor Market Knowledge", "weight": 1}
+    ]
+  },
+  {
+    "title": "Operations Manager",
+    "tags": ["nontech", "operations"],
+    "requiredSkills": [
+      {"skill": "Process Improvement", "weight": 2},
+      {"skill": "Project Management", "weight": 2},
+      {"skill": "Leadership", "weight": 1},
+      {"skill": "Data-driven Decisions", "weight": 1}
+    ]
+  },
+  {
+    "title": "Financial Analyst / Accountant",
+    "tags": ["nontech", "finance"],
+    "requiredSkills": [
+      {"skill": "Financial Modeling", "weight": 2},
+      {"skill": "Accounting", "weight": 2},
+      {"skill": "Excel", "weight": 1},
+      {"skill": "Reporting", "weight": 1}
+    ]
+  },
+  {
+    "title": "Business Development Representative / Sales",
+    "tags": ["nontech", "sales"],
+    "requiredSkills": [
+      {"skill": "Lead Generation", "weight": 2},
+      {"skill": "CRM", "weight": 1},
+      {"skill": "Communication", "weight": 1},
+      {"skill": "Negotiation", "weight": 1}
+    ]
+  },
+  {
+    "title": "Customer Success / Account Manager",
+    "tags": ["nontech", "customer"],
+    "requiredSkills": [
+      {"skill": "Customer Onboarding", "weight": 2},
+      {"skill": "Account Management", "weight": 2},
+      {"skill": "Product Knowledge", "weight": 1},
+      {"skill": "Relationship Building", "weight": 1}
+    ]
+  },
+  {
+    "title": "Retail / Store Manager",
+    "tags": ["nontech", "retail"],
+    "requiredSkills": [
+      {"skill": "Store Operations", "weight": 2},
+      {"skill": "Team Management", "weight": 2},
+      {"skill": "Inventory Management", "weight": 1},
+      {"skill": "Customer Service", "weight": 1}
+    ]
+  },
+  {
+    "title": "Healthcare Administrator",
+    "tags": ["healthcare", "nontech"],
+    "requiredSkills": [
+      {"skill": "Healthcare Administration", "weight": 2},
+      {"skill": "Medical Terminology", "weight": 2},
+      {"skill": "HIPAA Compliance", "weight": 2},
+      {"skill": "Healthcare IT", "weight": 1},
+      {"skill": "Patient Care Coordination", "weight": 1}
+    ]
+  },
+  {
+    "title": "Registered Nurse",
+    "tags": ["healthcare", "nontech"],
+    "requiredSkills": [
+      {"skill": "Patient Care", "weight": 2},
+      {"skill": "Medical Knowledge", "weight": 2},
+      {"skill": "Clinical Skills", "weight": 2},
+      {"skill": "Communication", "weight": 1},
+      {"skill": "Emergency Response", "weight": 1}
+    ]
+  },
+  {
+    "title": "Physical Therapist",
+    "tags": ["healthcare", "nontech"],
+    "requiredSkills": [
+      {"skill": "Physical Therapy Techniques", "weight": 2},
+      {"skill": "Anatomy & Physiology", "weight": 2},
+      {"skill": "Patient Assessment", "weight": 2},
+      {"skill": "Rehabilitation Planning", "weight": 1},
+      {"skill": "Documentation", "weight": 1}
+    ]
+  },
+  {
+    "title": "Medical Coder",
+    "tags": ["healthcare", "nontech"],
+    "requiredSkills": [
+      {"skill": "Medical Coding", "weight": 2},
+      {"skill": "ICD-10", "weight": 2},
+      {"skill": "CPT Codes", "weight": 2},
+      {"skill": "Medical Terminology", "weight": 1},
+      {"skill": "Attention to Detail", "weight": 1}
+    ]
+  },
+  {
+    "title": "Investment Banker",
+    "tags": ["finance", "nontech"],
+    "requiredSkills": [
+      {"skill": "Financial Analysis", "weight": 2},
+      {"skill": "Financial Modeling", "weight": 2},
+      {"skill": "Valuation", "weight": 2},
+      {"skill": "Client Relations", "weight": 1},
+      {"skill": "Market Research", "weight": 1}
+    ]
+  },
+  {
+    "title": "Insurance Underwriter",
+    "tags": ["finance", "nontech"],
+    "requiredSkills": [
+      {"skill": "Risk Assessment", "weight": 2},
+      {"skill": "Insurance Knowledge", "weight": 2},
+      {"skill": "Data Analysis", "weight": 2},
+      {"skill": "Decision Making", "weight": 1},
+      {"skill": "Regulatory Compliance", "weight": 1}
+    ]
+  },
+  {
+    "title": "Tax Consultant",
+    "tags": ["finance", "nontech"],
+    "requiredSkills": [
+      {"skill": "Tax Law", "weight": 2},
+      {"skill": "Tax Preparation", "weight": 2},
+      {"skill": "Accounting", "weight": 2},
+      {"skill": "Client Advisory", "weight": 1},
+      {"skill": "Compliance", "weight": 1}
+    ]
+  },
+  {
+    "title": "Elementary School Teacher",
+    "tags": ["education", "nontech"],
+    "requiredSkills": [
+      {"skill": "Curriculum Development", "weight": 2},
+      {"skill": "Classroom Management", "weight": 2},
+      {"skill": "Child Development", "weight": 2},
+      {"skill": "Educational Assessment", "weight": 1},
+      {"skill": "Parent Communication", "weight": 1}
+    ]
+  },
+  {
+    "title": "Corporate Trainer",
+    "tags": ["education", "nontech"],
+    "requiredSkills": [
+      {"skill": "Training Design", "weight": 2},
+      {"skill": "Adult Learning", "weight": 2},
+      {"skill": "Presentation Skills", "weight": 2},
+      {"skill": "Assessment & Evaluation", "weight": 1},
+      {"skill": "Needs Analysis", "weight": 1}
+    ]
+  },
+  {
+    "title": "Digital Marketing Manager",
+    "tags": ["marketing", "nontech"],
+    "requiredSkills": [
+      {"skill": "Digital Marketing", "weight": 2},
+      {"skill": "SEO/SEM", "weight": 2},
+      {"skill": "Social Media Marketing", "weight": 2},
+      {"skill": "Analytics", "weight": 1},
+      {"skill": "Campaign Management", "weight": 1}
+    ]
+  },
+  {
+    "title": "Content Marketing Specialist",
+    "tags": ["marketing", "nontech"],
+    "requiredSkills": [
+      {"skill": "Content Strategy", "weight": 2},
+      {"skill": "Content Creation", "weight": 2},
+      {"skill": "SEO Writing", "weight": 2},
+      {"skill": "Brand Voice", "weight": 1},
+      {"skill": "Analytics", "weight": 1}
+    ]
+  },
+  {
+    "title": "HR Generalist",
+    "tags": ["hr", "nontech"],
+    "requiredSkills": [
+      {"skill": "Recruitment", "weight": 2},
+      {"skill": "Employee Relations", "weight": 2},
+      {"skill": "HR Policies", "weight": 2},
+      {"skill": "Performance Management", "weight": 1},
+      {"skill": "Labor Law", "weight": 1}
+    ]
+  },
+  {
+    "title": "Management Consultant",
+    "tags": ["consulting", "nontech"],
+    "requiredSkills": [
+      {"skill": "Business Analysis", "weight": 2},
+      {"skill": "Strategic Planning", "weight": 2},
+      {"skill": "Problem Solving", "weight": 2},
+      {"skill": "Client Management", "weight": 1},
+      {"skill": "Presentation Skills", "weight": 1}
+    ]
+  },
+  {
+    "title": "Supply Chain Manager",
+    "tags": ["operations", "nontech"],
+    "requiredSkills": [
+      {"skill": "Supply Chain Management", "weight": 2},
+      {"skill": "Logistics", "weight": 2},
+      {"skill": "Vendor Management", "weight": 2},
+      {"skill": "Inventory Control", "weight": 1},
+      {"skill": "Cost Optimization", "weight": 1}
+    ]
+  },
+  {
+    "title": "Legal Counsel",
+    "tags": ["legal", "nontech"],
+    "requiredSkills": [
+      {"skill": "Legal Research", "weight": 2},
+      {"skill": "Contract Law", "weight": 2},
+      {"skill": "Legal Writing", "weight": 2},
+      {"skill": "Negotiation", "weight": 1},
+      {"skill": "Compliance", "weight": 1}
+    ]
+  },
+  {
+    "title": "IAS Officer",
+    "tags": ["ias", "government"],
+    "requiredSkills": [
+      {"skill": "General Studies", "weight": 2},
+      {"skill": "Current Affairs", "weight": 2},
+      {"skill": "Public Administration", "weight": 2},
+      {"skill": "Essay Writing", "weight": 1},
+      {"skill": "Interview Skills", "weight": 1}
+    ]
+  },
+  {
+    "title": "IPS Officer",
+    "tags": ["ias", "government"],
+    "requiredSkills": [
+      {"skill": "General Studies", "weight": 2},
+      {"skill": "Current Affairs", "weight": 2},
+      {"skill": "Law & Order", "weight": 2},
+      {"skill": "Physical Fitness", "weight": 1},
+      {"skill": "Leadership", "weight": 1}
+    ]
+  },
+  {
+    "title": "IFS Officer",
+    "tags": ["ias", "government"],
+    "requiredSkills": [
+      {"skill": "International Relations", "weight": 2},
+      {"skill": "General Studies", "weight": 2},
+      {"skill": "Current Affairs", "weight": 2},
+      {"skill": "Diplomacy", "weight": 1},
+      {"skill": "Communication", "weight": 1}
+    ]
+  },
+  {
+    "title": "Bank PO (Probationary Officer)",
+    "tags": ["banking", "government"],
+    "requiredSkills": [
+      {"skill": "Banking Awareness", "weight": 2},
+      {"skill": "Quantitative Aptitude", "weight": 2},
+      {"skill": "English Language", "weight": 2},
+      {"skill": "Reasoning Ability", "weight": 1},
+      {"skill": "Current Affairs", "weight": 1}
+    ]
+  },
+  {
+    "title": "SBI Clerk",
+    "tags": ["banking", "government"],
+    "requiredSkills": [
+      {"skill": "Banking Operations", "weight": 2},
+      {"skill": "Customer Service", "weight": 2},
+      {"skill": "Computer Knowledge", "weight": 2},
+      {"skill": "Numerical Ability", "weight": 1},
+      {"skill": "English Proficiency", "weight": 1}
+    ]
+  },
+  {
+    "title": "Railway Officer",
+    "tags": ["railway", "government"],
+    "requiredSkills": [
+      {"skill": "Technical Knowledge", "weight": 2},
+      {"skill": "General Awareness", "weight": 2},
+      {"skill": "Reasoning", "weight": 2},
+      {"skill": "Mathematics", "weight": 1},
+      {"skill": "English", "weight": 1}
+    ]
+  },
+  {
+    "title": "Railway Station Master",
+    "tags": ["railway", "government"],
+    "requiredSkills": [
+      {"skill": "Railway Operations", "weight": 2},
+      {"skill": "Safety Protocols", "weight": 2},
+      {"skill": "Communication", "weight": 2},
+      {"skill": "Emergency Management", "weight": 1},
+      {"skill": "Computer Skills", "weight": 1}
+    ]
+  },
+  {
+    "title": "Army Officer",
+    "tags": ["defense", "government"],
+    "requiredSkills": [
+      {"skill": "Leadership", "weight": 2},
+      {"skill": "Physical Fitness", "weight": 2},
+      {"skill": "Strategic Thinking", "weight": 2},
+      {"skill": "Team Management", "weight": 1},
+      {"skill": "Decision Making", "weight": 1}
+    ]
+  },
+  {
+    "title": "Navy Officer",
+    "tags": ["defense", "government"],
+    "requiredSkills": [
+      {"skill": "Naval Operations", "weight": 2},
+      {"skill": "Navigation", "weight": 2},
+      {"skill": "Technical Skills", "weight": 2},
+      {"skill": "Leadership", "weight": 1},
+      {"skill": "Physical Fitness", "weight": 1}
+    ]
+  },
+  {
+    "title": "Air Force Officer",
+    "tags": ["defense", "government"],
+    "requiredSkills": [
+      {"skill": "Aviation Knowledge", "weight": 2},
+      {"skill": "Technical Aptitude", "weight": 2},
+      {"skill": "Physical Fitness", "weight": 2},
+      {"skill": "Quick Decision Making", "weight": 1},
+      {"skill": "Team Coordination", "weight": 1}
+    ]
+  },
+  {
+    "title": "SSC CGL Officer",
+    "tags": ["ssc", "government"],
+    "requiredSkills": [
+      {"skill": "General Intelligence", "weight": 2},
+      {"skill": "General Awareness", "weight": 2},
+      {"skill": "Quantitative Aptitude", "weight": 2},
+      {"skill": "English Comprehension", "weight": 1},
+      {"skill": "Computer Proficiency", "weight": 1}
+    ]
+  },
+  {
+    "title": "SSC CHSL Clerk",
+    "tags": ["ssc", "government"],
+    "requiredSkills": [
+      {"skill": "Data Entry", "weight": 2},
+      {"skill": "English Language", "weight": 2},
+      {"skill": "General Knowledge", "weight": 2},
+      {"skill": "Mathematics", "weight": 1},
+      {"skill": "Reasoning", "weight": 1}
+    ]
+  },
+  {
+    "title": "PSU Engineer",
+    "tags": ["psu", "government"],
+    "requiredSkills": [
+      {"skill": "Engineering Knowledge", "weight": 2},
+      {"skill": "Technical Aptitude", "weight": 2},
+      {"skill": "Problem Solving", "weight": 2},
+      {"skill": "Project Management", "weight": 1},
+      {"skill": "Communication", "weight": 1}
+    ]
+  },
+  {
+    "title": "ONGC Officer",
+    "tags": ["psu", "government"],
+    "requiredSkills": [
+      {"skill": "Petroleum Engineering", "weight": 2},
+      {"skill": "Geology", "weight": 2},
+      {"skill": "Technical Analysis", "weight": 2},
+      {"skill": "Safety Protocols", "weight": 1},
+      {"skill": "Environmental Awareness", "weight": 1}
+    ]
+  },
+  {
+    "title": "Civil Judge",
+    "tags": ["judiciary", "government"],
+    "requiredSkills": [
+      {"skill": "Legal Knowledge", "weight": 2},
+      {"skill": "Constitutional Law", "weight": 2},
+      {"skill": "Judgment Writing", "weight": 2},
+      {"skill": "Legal Reasoning", "weight": 1},
+      {"skill": "Ethics", "weight": 1}
+    ]
+  },
+  {
+    "title": "Judicial Magistrate",
+    "tags": ["judiciary", "government"],
+    "requiredSkills": [
+      {"skill": "Criminal Law", "weight": 2},
+      {"skill": "Civil Law", "weight": 2},
+      {"skill": "Case Management", "weight": 2},
+      {"skill": "Legal Procedure", "weight": 1},
+      {"skill": "Communication", "weight": 1}
+    ]
+  },
+  {
+    "title": "UGC NET Professor",
+    "tags": ["teaching", "government"],
+    "requiredSkills": [
+      {"skill": "Subject Expertise", "weight": 2},
+      {"skill": "Research Methodology", "weight": 2},
+      {"skill": "Teaching Skills", "weight": 2},
+      {"skill": "Academic Writing", "weight": 1},
+      {"skill": "Student Mentoring", "weight": 1}
+    ]
+  },
+  {
+    "title": "SET Lecturer",
+    "tags": ["teaching", "government"],
+    "requiredSkills": [
+      {"skill": "Subject Knowledge", "weight": 2},
+      {"skill": "Curriculum Development", "weight": 2},
+      {"skill": "Classroom Teaching", "weight": 2},
+      {"skill": "Student Assessment", "weight": 1},
+      {"skill": "Educational Technology", "weight": 1}
+    ]
+  },
+  {
+    "title": "Government School Teacher",
+    "tags": ["teaching", "government"],
+    "requiredSkills": [
+      {"skill": "Pedagogy", "weight": 2},
+      {"skill": "Subject Teaching", "weight": 2},
+      {"skill": "Classroom Management", "weight": 2},
+      {"skill": "Student Psychology", "weight": 1},
+      {"skill": "Educational Assessment", "weight": 1}
+    ]
+  },
+  {
+    "title": "RBI Grade B Officer",
+    "tags": ["banking", "government"],
+    "description": "Central bank officer responsible for monetary policy, banking supervision, and financial stability.",
+    "requiredSkills": [
+      {"skill": "Economics", "weight": 2},
+      {"skill": "Banking & Finance", "weight": 2},
+      {"skill": "Current Affairs", "weight": 2},
+      {"skill": "English Language", "weight": 1},
+      {"skill": "Quantitative Aptitude", "weight": 1}
+    ]
+  },
+  {
+    "title": "NABARD Officer",
+    "tags": ["banking", "government"],
+    "description": "Development banking officer focusing on agriculture and rural development financing.",
+    "requiredSkills": [
+      {"skill": "Agriculture & Rural Development", "weight": 2},
+      {"skill": "Banking Operations", "weight": 2},
+      {"skill": "Economics", "weight": 2},
+      {"skill": "Current Affairs", "weight": 1},
+      {"skill": "English Proficiency", "weight": 1}
+    ]
+  },
+  {
+    "title": "Income Tax Officer",
+    "tags": ["ssc", "government"],
+    "description": "Government officer responsible for tax assessment, collection, and compliance enforcement.",
+    "requiredSkills": [
+      {"skill": "Income Tax Law", "weight": 2},
+      {"skill": "Accounting", "weight": 2},
+      {"skill": "General Awareness", "weight": 2},
+      {"skill": "Quantitative Aptitude", "weight": 1},
+      {"skill": "English Language", "weight": 1}
+    ]
+  },
+  {
+    "title": "Customs Officer",
+    "tags": ["ssc", "government"],
+    "description": "Officer managing import/export regulations, customs duties, and border security.",
+    "requiredSkills": [
+      {"skill": "Customs & Trade Laws", "weight": 2},
+      {"skill": "General Studies", "weight": 2},
+      {"skill": "Current Affairs", "weight": 2},
+      {"skill": "Reasoning Ability", "weight": 1},
+      {"skill": "English Comprehension", "weight": 1}
+    ]
+  },
+  {
+    "title": "Central Excise Officer",
+    "tags": ["ssc", "government"],
+    "description": "Officer responsible for excise duty collection and manufacturing sector compliance.",
+    "requiredSkills": [
+      {"skill": "Excise Laws", "weight": 2},
+      {"skill": "Manufacturing Processes", "weight": 2},
+      {"skill": "General Knowledge", "weight": 2},
+      {"skill": "Mathematics", "weight": 1},
+      {"skill": "English Language", "weight": 1}
+    ]
+  },
+  {
+    "title": "CAPF Officer (BSF/CRPF/CISF)",
+    "tags": ["defense", "government"],
+    "description": "Central Armed Police Forces officer ensuring internal security and border protection.",
+    "requiredSkills": [
+      {"skill": "Physical Fitness", "weight": 2},
+      {"skill": "General Knowledge", "weight": 2},
+      {"skill": "Leadership Skills", "weight": 2},
+      {"skill": "Reasoning Ability", "weight": 1},
+      {"skill": "English Language", "weight": 1}
+    ]
+  },
+  {
+    "title": "Forest Service Officer (IFS)",
+    "tags": ["ias", "government"],
+    "description": "Officer managing forest conservation, wildlife protection, and environmental policies.",
+    "requiredSkills": [
+      {"skill": "Environmental Science", "weight": 2},
+      {"skill": "Forest Management", "weight": 2},
+      {"skill": "General Studies", "weight": 2},
+      {"skill": "Current Affairs", "weight": 1},
+      {"skill": "Essay Writing", "weight": 1}
+    ]
+  },
+  {
+    "title": "Indian Revenue Service (IRS)",
+    "tags": ["ias", "government"],
+    "description": "Tax administration officer handling direct and indirect tax collection and policy.",
+    "requiredSkills": [
+      {"skill": "Taxation Laws", "weight": 2},
+      {"skill": "Economics", "weight": 2},
+      {"skill": "General Studies", "weight": 2},
+      {"skill": "Current Affairs", "weight": 1},
+      {"skill": "Interview Skills", "weight": 1}
+    ]
+  },
+  {
+    "title": "Indian Audit & Accounts Service (IA&AS)",
+    "tags": ["ias", "government"],
+    "description": "Officer responsible for government audit, accounts, and financial management.",
+    "requiredSkills": [
+      {"skill": "Accounting & Auditing", "weight": 2},
+      {"skill": "Public Finance", "weight": 2},
+      {"skill": "General Studies", "weight": 2},
+      {"skill": "Current Affairs", "weight": 1},
+      {"skill": "Financial Analysis", "weight": 1}
+    ]
+  },
+  {
+    "title": "Railway Traffic Inspector",
+    "tags": ["railway", "government"],
+    "description": "Officer managing train operations, safety protocols, and traffic coordination.",
+    "requiredSkills": [
+      {"skill": "Railway Operations", "weight": 2},
+      {"skill": "Safety Management", "weight": 2},
+      {"skill": "Technical Knowledge", "weight": 2},
+      {"skill": "Communication Skills", "weight": 1},
+      {"skill": "Emergency Response", "weight": 1}
+    ]
+  },
+  {
+    "title": "Railway Commercial Clerk",
+    "tags": ["railway", "government"],
+    "description": "Clerk handling ticketing, reservations, and commercial operations in railways.",
+    "requiredSkills": [
+      {"skill": "Computer Operations", "weight": 2},
+      {"skill": "Customer Service", "weight": 2},
+      {"skill": "Railway Commercial Rules", "weight": 2},
+      {"skill": "Mathematics", "weight": 1},
+      {"skill": "English Language", "weight": 1}
+    ]
+  },
+  {
+    "title": "BHEL Engineer",
+    "tags": ["psu", "government"],
+    "description": "Engineer in Bharat Heavy Electricals Limited working on power generation equipment.",
+    "requiredSkills": [
+      {"skill": "Electrical Engineering", "weight": 2},
+      {"skill": "Power Systems", "weight": 2},
+      {"skill": "Technical Problem Solving", "weight": 2},
+      {"skill": "Project Management", "weight": 1},
+      {"skill": "Quality Control", "weight": 1}
+    ]
+  },
+  {
+    "title": "SAIL Officer",
+    "tags": ["psu", "government"],
+    "description": "Officer in Steel Authority of India Limited managing steel production and operations.",
+    "requiredSkills": [
+      {"skill": "Metallurgical Engineering", "weight": 2},
+      {"skill": "Production Management", "weight": 2},
+      {"skill": "Quality Assurance", "weight": 2},
+      {"skill": "Safety Protocols", "weight": 1},
+      {"skill": "Team Leadership", "weight": 1}
+    ]
+  },
+  {
+    "title": "ISRO Scientist",
+    "tags": ["psu", "government"],
+    "description": "Scientist working on space research, satellite technology, and space missions.",
+    "requiredSkills": [
+      {"skill": "Aerospace Engineering", "weight": 2},
+      {"skill": "Satellite Technology", "weight": 2},
+      {"skill": "Research Methodology", "weight": 2},
+      {"skill": "Programming", "weight": 1},
+      {"skill": "Data Analysis", "weight": 1}
+    ]
+  },
+  {
+    "title": "District Collector",
+    "tags": ["ias", "government"],
+    "description": "Senior administrative officer managing district-level governance and development programs.",
+    "requiredSkills": [
+      {"skill": "Public Administration", "weight": 2},
+      {"skill": "Leadership", "weight": 2},
+      {"skill": "Policy Implementation", "weight": 2},
+      {"skill": "Communication", "weight": 1},
+      {"skill": "Crisis Management", "weight": 1}
+    ]
+  },
+  {
+    "title": "Block Development Officer",
+    "tags": ["government", "development"],
+    "description": "Officer responsible for rural development programs and grassroots administration.",
+    "requiredSkills": [
+      {"skill": "Rural Development", "weight": 2},
+      {"skill": "Community Engagement", "weight": 2},
+      {"skill": "Government Schemes", "weight": 2},
+      {"skill": "Project Coordination", "weight": 1},
+      {"skill": "Local Governance", "weight": 1}
+    ]
+  },
+  {
+    "title": "Food Inspector",
+    "tags": ["government", "health"],
+    "description": "Officer ensuring food safety standards and quality control in food establishments.",
+    "requiredSkills": [
+      {"skill": "Food Safety Laws", "weight": 2},
+      {"skill": "Quality Control", "weight": 2},
+      {"skill": "Laboratory Testing", "weight": 2},
+      {"skill": "Inspection Procedures", "weight": 1},
+      {"skill": "Report Writing", "weight": 1}
+    ]
+  },
+  {
+    "title": "Drug Inspector",
+    "tags": ["government", "health"],
+    "description": "Officer monitoring pharmaceutical quality, drug licensing, and regulatory compliance.",
+    "requiredSkills": [
+      {"skill": "Pharmaceutical Sciences", "weight": 2},
+      {"skill": "Drug Regulations", "weight": 2},
+      {"skill": "Quality Assurance", "weight": 2},
+      {"skill": "Legal Knowledge", "weight": 1},
+      {"skill": "Investigation Skills", "weight": 1}
+    ]
+  },
+  {
+    "title": "Assistant Registrar (Cooperative Societies)",
+    "tags": ["government", "cooperative"],
+    "description": "Officer managing cooperative society registration, audit, and regulatory compliance.",
+    "requiredSkills": [
+      {"skill": "Cooperative Laws", "weight": 2},
+      {"skill": "Accounting & Audit", "weight": 2},
+      {"skill": "Regulatory Compliance", "weight": 2},
+      {"skill": "Administrative Skills", "weight": 1},
+      {"skill": "Communication", "weight": 1}
+    ]
+  },
+  {
+    "title": "Tehsildar",
+    "tags": ["government", "revenue"],
+    "description": "Revenue officer managing land records, property disputes, and local administration.",
+    "requiredSkills": [
+      {"skill": "Revenue Laws", "weight": 2},
+      {"skill": "Land Records Management", "weight": 2},
+      {"skill": "Administrative Procedures", "weight": 2},
+      {"skill": "Dispute Resolution", "weight": 1},
+      {"skill": "Public Interaction", "weight": 1}
+    ]
+  },
+  {
+    "title": "Site Reliability Engineer (SRE)",
+    "tags": ["devops", "infrastructure", "reliability"],
+    "description": "Engineer focused on system reliability, scalability, and performance optimization in production environments.",
+    "requiredSkills": [
+      {"skill": "System Administration", "weight": 2},
+      {"skill": "Monitoring & Observability", "weight": 2},
+      {"skill": "Incident Response", "weight": 2},
+      {"skill": "Automation & Scripting", "weight": 1},
+      {"skill": "Cloud Platforms", "weight": 1}
+    ]
+  },
+  {
+    "title": "Platform Engineer",
+    "tags": ["platform", "infrastructure", "devops"],
+    "description": "Engineer building and maintaining internal developer platforms and tooling infrastructure.",
+    "requiredSkills": [
+      {"skill": "Kubernetes", "weight": 2},
+      {"skill": "Infrastructure as Code", "weight": 2},
+      {"skill": "CI/CD Pipelines", "weight": 2},
+      {"skill": "Developer Experience", "weight": 1},
+      {"skill": "API Design", "weight": 1}
+    ]
+  },
+  {
+    "title": "Prompt Engineer",
+    "tags": ["ai", "ml", "llm"],
+    "description": "Specialist in designing and optimizing prompts for large language models and AI systems.",
+    "requiredSkills": [
+      {"skill": "Large Language Models", "weight": 2},
+      {"skill": "Prompt Design", "weight": 2},
+      {"skill": "AI Model Evaluation", "weight": 2},
+      {"skill": "Python", "weight": 1},
+      {"skill": "Natural Language Processing", "weight": 1}
+    ]
+  },
+  {
+    "title": "MLOps Engineer",
+    "tags": ["ml", "devops", "ai"],
+    "description": "Engineer specializing in deploying, monitoring, and maintaining machine learning models in production.",
+    "requiredSkills": [
+      {"skill": "ML Model Deployment", "weight": 2},
+      {"skill": "Model Monitoring", "weight": 2},
+      {"skill": "ML Pipelines", "weight": 2},
+      {"skill": "Docker & Kubernetes", "weight": 1},
+      {"skill": "Python", "weight": 1}
+    ]
+  },
+  {
+    "title": "Sustainability Consultant",
+    "tags": ["nontech", "sustainability", "consulting"],
+    "description": "Professional helping organizations implement sustainable practices and environmental compliance.",
+    "requiredSkills": [
+      {"skill": "Environmental Science", "weight": 2},
+      {"skill": "Sustainability Frameworks", "weight": 2},
+      {"skill": "Carbon Footprint Analysis", "weight": 2},
+      {"skill": "Regulatory Compliance", "weight": 1},
+      {"skill": "Project Management", "weight": 1}
+    ]
+  },
+  {
+    "title": "User Experience (UX) Researcher",
+    "tags": ["nontech", "research", "ux"],
+    "description": "Researcher conducting user studies and analyzing user behavior to improve product experiences.",
+    "requiredSkills": [
+      {"skill": "User Research Methods", "weight": 2},
+      {"skill": "Data Analysis", "weight": 2},
+      {"skill": "Survey Design", "weight": 2},
+      {"skill": "Statistical Analysis", "weight": 1},
+      {"skill": "Presentation Skills", "weight": 1}
+    ]
+  },
+  {
+    "title": "Social Media Manager",
+    "tags": ["nontech", "marketing", "social"],
+    "description": "Professional managing brand presence across social media platforms and digital communities.",
+    "requiredSkills": [
+      {"skill": "Social Media Strategy", "weight": 2},
+      {"skill": "Content Creation", "weight": 2},
+      {"skill": "Community Management", "weight": 2},
+      {"skill": "Analytics & Reporting", "weight": 1},
+      {"skill": "Brand Management", "weight": 1}
+    ]
+  },
+  {
+    "title": "Grant Writer",
+    "tags": ["nontech", "writing", "nonprofit"],
+    "description": "Professional specializing in writing proposals to secure funding from foundations and government agencies.",
+    "requiredSkills": [
+      {"skill": "Grant Writing", "weight": 2},
+      {"skill": "Research Skills", "weight": 2},
+      {"skill": "Proposal Development", "weight": 2},
+      {"skill": "Budget Planning", "weight": 1},
+      {"skill": "Project Management", "weight": 1}
+    ]
+  },
+  {
+    "title": "UPSC Coaching Institute Director",
+    "tags": ["government", "education", "upsc"],
+    "description": "Professional managing UPSC coaching institutes and developing civil services preparation programs.",
+    "requiredSkills": [
+      {"skill": "UPSC Syllabus Expertise", "weight": 2},
+      {"skill": "Educational Administration", "weight": 2},
+      {"skill": "Curriculum Development", "weight": 2},
+      {"skill": "Faculty Management", "weight": 1},
+      {"skill": "Student Mentoring", "weight": 1}
+    ]
+  },
+  {
+    "title": "Government Relations Manager",
+    "tags": ["government", "policy", "relations"],
+    "description": "Professional managing relationships between organizations and government agencies for policy advocacy.",
+    "requiredSkills": [
+      {"skill": "Government Relations", "weight": 2},
+      {"skill": "Policy Analysis", "weight": 2},
+      {"skill": "Stakeholder Management", "weight": 2},
+      {"skill": "Communication", "weight": 1},
+      {"skill": "Regulatory Knowledge", "weight": 1}
+    ]
+  },
+  {
+    "title": "Municipal Corporation Officer",
+    "tags": ["government", "municipal", "administration"],
+    "description": "Officer managing city-level governance, urban planning, and municipal service delivery.",
+    "requiredSkills": [
+      {"skill": "Urban Administration", "weight": 2},
+      {"skill": "Municipal Laws", "weight": 2},
+      {"skill": "Public Service Management", "weight": 2},
+      {"skill": "Budget Management", "weight": 1},
+      {"skill": "Community Engagement", "weight": 1}
+    ]
+  },
+  {
+    "title": "Election Officer",
+    "tags": ["election", "government"],
+    "description": "Officer managing electoral processes, voter registration, and election administration.",
+    "requiredSkills": [
+      {"skill": "Election Laws", "weight": 2},
+      {"skill": "Electoral Process Management", "weight": 2},
+      {"skill": "Administrative Coordination", "weight": 2},
+      {"skill": "Technology Integration", "weight": 1},
+      {"skill": "Public Communication", "weight": 1}
+    ]
+  },
+  {
+    "title": "Investment Banking Analyst",
+    "tags": ["finance", "banking", "non-tech"],
+    "description": "Analyst providing financial advisory services, conducting market research, and supporting M&A transactions.",
+    "requiredSkills": [
+      {"skill": "Financial Modeling", "weight": 3},
+      {"skill": "Valuation Analysis", "weight": 3},
+      {"skill": "Excel Advanced", "weight": 2},
+      {"skill": "PowerPoint", "weight": 2},
+      {"skill": "Market Research", "weight": 2},
+      {"skill": "Financial Statement Analysis", "weight": 2},
+      {"skill": "Due Diligence", "weight": 2},
+      {"skill": "Communication Skills", "weight": 1}
+    ]
+  },
+  {
+    "title": "Management Consultant",
+    "tags": ["consulting", "business", "non-tech"],
+    "description": "Consultant helping organizations improve performance through strategic planning and operational efficiency.",
+    "requiredSkills": [
+      {"skill": "Strategic Planning", "weight": 3},
+      {"skill": "Problem Solving", "weight": 3},
+      {"skill": "Business Analysis", "weight": 2},
+      {"skill": "Project Management", "weight": 2},
+      {"skill": "Presentation Skills", "weight": 2},
+      {"skill": "Data Analysis", "weight": 2},
+      {"skill": "Client Management", "weight": 2},
+      {"skill": "Leadership", "weight": 1}
+    ]
+  },
+  {
+    "title": "Digital Marketing Manager",
+    "tags": ["marketing", "digital", "non-tech"],
+    "description": "Manager developing and executing digital marketing strategies across multiple channels.",
+    "requiredSkills": [
+      {"skill": "Digital Marketing Strategy", "weight": 3},
+      {"skill": "SEO/SEM", "weight": 2},
+      {"skill": "Social Media Marketing", "weight": 2},
+      {"skill": "Google Analytics", "weight": 2},
+      {"skill": "Content Marketing", "weight": 2},
+      {"skill": "Email Marketing", "weight": 2},
+      {"skill": "PPC Advertising", "weight": 2},
+      {"skill": "Marketing Automation", "weight": 1}
+    ]
+  },
+  {
+    "title": "Registered Nurse",
+    "tags": ["healthcare", "nursing", "non-tech"],
+    "description": "Healthcare professional providing patient care, administering medications, and coordinating treatment plans.",
+    "requiredSkills": [
+      {"skill": "Patient Care", "weight": 3},
+      {"skill": "Medical Knowledge", "weight": 3},
+      {"skill": "Clinical Assessment", "weight": 2},
+      {"skill": "Medication Administration", "weight": 2},
+      {"skill": "Emergency Response", "weight": 2},
+      {"skill": "Communication Skills", "weight": 2},
+      {"skill": "Electronic Health Records", "weight": 1},
+      {"skill": "Compassion", "weight": 1}
+    ]
+  },
+  {
+    "title": "Financial Analyst",
+    "tags": ["finance", "analysis", "non-tech"],
+    "description": "Analyst evaluating financial data, preparing reports, and supporting investment decisions.",
+    "requiredSkills": [
+      {"skill": "Financial Analysis", "weight": 3},
+      {"skill": "Excel Advanced", "weight": 2},
+      {"skill": "Financial Modeling", "weight": 2},
+      {"skill": "Budget Planning", "weight": 2},
+      {"skill": "Risk Assessment", "weight": 2},
+      {"skill": "SQL", "weight": 2},
+      {"skill": "Tableau", "weight": 1},
+      {"skill": "Presentation Skills", "weight": 1}
+    ]
+  },
+  {
+    "title": "Human Resources Manager",
+    "tags": ["hr", "management", "non-tech"],
+    "description": "Manager overseeing recruitment, employee relations, and organizational development initiatives.",
+    "requiredSkills": [
+      {"skill": "Talent Acquisition", "weight": 3},
+      {"skill": "Employee Relations", "weight": 2},
+      {"skill": "Performance Management", "weight": 2},
+      {"skill": "Labor Law", "weight": 2},
+      {"skill": "HRIS Systems", "weight": 2},
+      {"skill": "Compensation Planning", "weight": 2},
+      {"skill": "Training & Development", "weight": 2},
+      {"skill": "Conflict Resolution", "weight": 1}
+    ]
+  },
+  {
+    "title": "Operations Manager",
+    "tags": ["operations", "management", "non-tech"],
+    "description": "Manager optimizing business operations, managing supply chains, and improving process efficiency.",
+    "requiredSkills": [
+      {"skill": "Operations Management", "weight": 3},
+      {"skill": "Supply Chain Management", "weight": 2},
+      {"skill": "Process Improvement", "weight": 2},
+      {"skill": "Quality Control", "weight": 2},
+      {"skill": "Inventory Management", "weight": 2},
+      {"skill": "Lean Six Sigma", "weight": 2},
+      {"skill": "Team Leadership", "weight": 2},
+      {"skill": "ERP Systems", "weight": 1}
+    ]
+  },
+  {
+    "title": "Physician",
+    "tags": ["healthcare", "medical", "non-tech"],
+    "description": "Medical doctor diagnosing and treating patients, developing treatment plans, and providing healthcare services.",
+    "requiredSkills": [
+      {"skill": "Medical Diagnosis", "weight": 3},
+      {"skill": "Clinical Medicine", "weight": 3},
+      {"skill": "Patient Care", "weight": 2},
+      {"skill": "Medical Research", "weight": 2},
+      {"skill": "Pharmacology", "weight": 2},
+      {"skill": "Medical Ethics", "weight": 2},
+      {"skill": "EMR Systems", "weight": 1},
+      {"skill": "Communication Skills", "weight": 1}
+    ]
+  },
+  {
+    "title": "Elementary School Teacher",
+    "tags": ["education", "teaching", "non-tech"],
+    "description": "Educator teaching fundamental subjects to elementary students and fostering their academic development.",
+    "requiredSkills": [
+      {"skill": "Curriculum Development", "weight": 3},
+      {"skill": "Classroom Management", "weight": 2},
+      {"skill": "Child Psychology", "weight": 2},
+      {"skill": "Educational Technology", "weight": 2},
+      {"skill": "Assessment Methods", "weight": 2},
+      {"skill": "Parent Communication", "weight": 2},
+      {"skill": "Special Needs Support", "weight": 1},
+      {"skill": "Patience", "weight": 1}
+    ]
+  },
+  {
+    "title": "Foreign Service Officer",
+    "tags": ["diplomacy", "government", "international"],
+    "description": "Diplomat representing national interests abroad, managing international relations and consular services.",
+    "requiredSkills": [
+      {"skill": "International Relations", "weight": 3},
+      {"skill": "Diplomatic Protocol", "weight": 3},
+      {"skill": "Foreign Languages", "weight": 2},
+      {"skill": "Cultural Sensitivity", "weight": 2},
+      {"skill": "Negotiation Skills", "weight": 2},
+      {"skill": "Political Analysis", "weight": 2},
+      {"skill": "Public Speaking", "weight": 2},
+      {"skill": "Crisis Management", "weight": 1}
+    ]
+  },
+  {
+    "title": "Intelligence Analyst",
+    "tags": ["intelligence", "government", "security"],
+    "description": "Analyst gathering and analyzing intelligence data to support national security decisions.",
+    "requiredSkills": [
+      {"skill": "Intelligence Analysis", "weight": 3},
+      {"skill": "Research Methods", "weight": 3},
+      {"skill": "Critical Thinking", "weight": 2},
+      {"skill": "Report Writing", "weight": 2},
+      {"skill": "Data Mining", "weight": 2},
+      {"skill": "Geopolitical Knowledge", "weight": 2},
+      {"skill": "Security Clearance", "weight": 2},
+      {"skill": "Foreign Languages", "weight": 1}
+    ]
+  },
+  {
+    "title": "Environmental Scientist",
+    "tags": ["environment", "science", "government"],
+    "description": "Scientist studying environmental issues and developing solutions for pollution control and conservation.",
+    "requiredSkills": [
+      {"skill": "Environmental Science", "weight": 3},
+      {"skill": "Data Analysis", "weight": 2},
+      {"skill": "Field Research", "weight": 2},
+      {"skill": "Environmental Regulations", "weight": 2},
+      {"skill": "GIS Software", "weight": 2},
+      {"skill": "Statistical Analysis", "weight": 2},
+      {"skill": "Technical Writing", "weight": 2},
+      {"skill": "Laboratory Skills", "weight": 1}
+    ]
+  },
+  {
+    "title": "Social Worker",
+    "tags": ["social services", "government", "non-tech"],
+    "description": "Professional helping individuals and families overcome challenges and access community resources.",
+    "requiredSkills": [
+      {"skill": "Case Management", "weight": 3},
+      {"skill": "Counseling Skills", "weight": 3},
+      {"skill": "Social Work Ethics", "weight": 2},
+      {"skill": "Crisis Intervention", "weight": 2},
+      {"skill": "Community Resources", "weight": 2},
+      {"skill": "Documentation", "weight": 2},
+      {"skill": "Cultural Competency", "weight": 2},
+      {"skill": "Empathy", "weight": 1}
+    ]
+  },
+  {
+    "title": "Urban Planner",
+    "tags": ["planning", "government", "development"],
+    "description": "Planner designing land use plans and policies for sustainable community development.",
+    "requiredSkills": [
+      {"skill": "Urban Planning", "weight": 3},
+      {"skill": "GIS Mapping", "weight": 2},
+      {"skill": "Zoning Laws", "weight": 2},
+      {"skill": "Community Engagement", "weight": 2},
+      {"skill": "Environmental Planning", "weight": 2},
+      {"skill": "CAD Software", "weight": 2},
+      {"skill": "Public Policy", "weight": 2},
+      {"skill": "Project Management", "weight": 1}
+    ]
+  },
+  {
+    "title": "Accountant",
+    "tags": ["accounting", "finance", "non-tech"],
+    "description": "Professional managing financial records, preparing tax returns, and ensuring regulatory compliance.",
+    "requiredSkills": [
+      {"skill": "Accounting Principles", "weight": 3},
+      {"skill": "Tax Preparation", "weight": 2},
+      {"skill": "Financial Reporting", "weight": 2},
+      {"skill": "QuickBooks", "weight": 2},
+      {"skill": "Excel Advanced", "weight": 2},
+      {"skill": "Auditing", "weight": 2},
+      {"skill": "Regulatory Compliance", "weight": 2},
+      {"skill": "Attention to Detail", "weight": 1}
+    ]
+  },
+  {
+    "title": "Marketing Manager",
+    "tags": ["marketing", "business", "non-tech"],
+    "description": "Manager developing marketing campaigns, brand strategies, and customer acquisition programs.",
+    "requiredSkills": [
+      {"skill": "Marketing Strategy", "weight": 3},
+      {"skill": "Brand Management", "weight": 2},
+      {"skill": "Market Research", "weight": 2},
+      {"skill": "Campaign Management", "weight": 2},
+      {"skill": "Customer Analytics", "weight": 2},
+      {"skill": "Budget Management", "weight": 2},
+      {"skill": "Creative Direction", "weight": 2},
+      {"skill": "Team Leadership", "weight": 1}
+    ]
+  },
+  {
+    "title": "Sales Manager",
+    "tags": ["sales", "business", "non-tech"],
+    "description": "Manager leading sales teams, developing sales strategies, and managing client relationships.",
+    "requiredSkills": [
+      {"skill": "Sales Management", "weight": 3},
+      {"skill": "Team Leadership", "weight": 2},
+      {"skill": "CRM Systems", "weight": 2},
+      {"skill": "Sales Strategy", "weight": 2},
+      {"skill": "Client Relationship Management", "weight": 2},
+      {"skill": "Negotiation", "weight": 2},
+      {"skill": "Performance Analytics", "weight": 2},
+      {"skill": "Communication Skills", "weight": 1}
+    ]
+  },
+  {
+    "title": "Pharmacist",
+    "tags": ["healthcare", "pharmacy", "non-tech"],
+    "description": "Healthcare professional dispensing medications, providing drug information, and ensuring patient safety.",
+    "requiredSkills": [
+      {"skill": "Pharmacology", "weight": 3},
+      {"skill": "Medication Safety", "weight": 3},
+      {"skill": "Patient Counseling", "weight": 2},
+      {"skill": "Drug Interactions", "weight": 2},
+      {"skill": "Pharmacy Law", "weight": 2},
+      {"skill": "Clinical Knowledge", "weight": 2},
+      {"skill": "Pharmacy Software", "weight": 2},
+      {"skill": "Attention to Detail", "weight": 1}
+    ]
+  }
+]
